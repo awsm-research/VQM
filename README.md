@@ -1,3 +1,14 @@
+## ⚠️ **Dataset Alert: Data Duplication Issue Identified**  
+
+We sincerely thank **Joseph N. Wilson** and **Anurag Swarnim Yadav** from the **University of Florida CISE Department** for identifying and notifying us about a data duplication issue in our VQM dataset. Their analysis, presented in their ![ACSAC 2024 paper](TODO), has highlighted an unintended label leakage between our training and test sets that led to inflated performance results.    
+
+### 🚀 **Important Notice for Future Studies**  
+- ❌ **Please Do Not Reuse This Benchmark Dataset for Model Evaluation**: Due to the identified duplication, results obtained using this dataset can not reflect real-world generalization.  
+- 🛠️ **Retrain with a Clean Dataset**: To obtain an accurate assessment of VQM’s true performance, future research **should retrain and evaluate the model using a fully de-duplicated dataset**.  
+- 📖 **Reference to ACSAC 2024 Findings**: Researchers should refer to ![Yadav & Wilson’s ACSAC 2024 paper](TODO) for a detailed analysis of the dataset issue and its impact on model evaluation.  
+
+We appreciate the efforts of the research community in improving the integrity of vulnerability repair benchmarks and welcome further discussions on this matter.
+
 <div align="center">
   
 # VIT-Inspired Automated Vulnerability Repair <br> (Reproduction of Experiments)
