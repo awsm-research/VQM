@@ -1,3 +1,6 @@
+🚨 **Data Duplication Alert**
+- **A recent study has identified a data duplication issue in this benchmark dataset, specifically between the training and testing sets.** We thank Anurag Swarnim Yadav and Joseph N. Wilson for bringing this issue to our attention. For further details, please refer to their [ACSAC 2024 paper](https://arxiv.org/abs/2503.06387).
+
 <div align="center">
   
 # VIT-Inspired Automated Vulnerability Repair <br> (Reproduction of Experiments)
